@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# cocoapods-generate
+gen/
+
+# Swift Package Manager
+.build/
+Package.resolved
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Xcode
+xcuserdata/

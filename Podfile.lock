@@ -1,0 +1,63 @@
+PODS:
+  - One (1.0.0.LOCAL):
+    - Workflow
+    - WorkflowSwiftUI
+  - ReactiveSwift (6.0.0)
+  - Two (1.0.0.LOCAL):
+    - Workflow
+    - WorkflowUI
+  - Workflow (0.24.0):
+    - ReactiveSwift (~> 6.0.0)
+  - WorkflowSwiftUI (0.24.0):
+    - Workflow (= 0.24.0)
+  - WorkflowUI (0.24.0):
+    - Workflow (= 0.24.0)
+
+DEPENDENCIES:
+  - One (from `Playgrounds/One/One.podspec`)
+  - Two (from `Playgrounds/Two/Two.podspec`)
+  - Workflow (from `https://github.com/square/workflow.git`, branch `master`)
+  - WorkflowSwiftUI (from `https://github.com/square/workflow.git`, branch `master`)
+  - WorkflowUI (from `https://github.com/square/workflow.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - ReactiveSwift
+
+EXTERNAL SOURCES:
+  One:
+    :path: Playgrounds/One/One.podspec
+  Two:
+    :path: Playgrounds/Two/Two.podspec
+  Workflow:
+    :branch: master
+    :git: https://github.com/square/workflow.git
+  WorkflowSwiftUI:
+    :branch: master
+    :git: https://github.com/square/workflow.git
+  WorkflowUI:
+    :branch: master
+    :git: https://github.com/square/workflow.git
+
+CHECKOUT OPTIONS:
+  Workflow:
+    :commit: 552d8313bd0d98ee4e8d15877f1a5755f72a8915
+    :git: https://github.com/square/workflow.git
+  WorkflowSwiftUI:
+    :commit: 552d8313bd0d98ee4e8d15877f1a5755f72a8915
+    :git: https://github.com/square/workflow.git
+  WorkflowUI:
+    :commit: 552d8313bd0d98ee4e8d15877f1a5755f72a8915
+    :git: https://github.com/square/workflow.git
+
+SPEC CHECKSUMS:
+  One: 7e6d9730806d53991b59e1e5a82a66f51ccd5530
+  ReactiveSwift: 24b7ed245617bbfd30ee0c87779b6c64ac1b4518
+  Two: 6b00094e831d1ebe6e201239c403b17affd20ac4
+  Workflow: 2c4e797ee249216e5cd9174b65599780e78337f3
+  WorkflowSwiftUI: 5f2a59602fed08fdfabf518c7f89a24de6145b8a
+  WorkflowUI: c51ee47cdde720d240232a80f062baaf5e444549
+
+PODFILE CHECKSUM: d6922900f92ff3378b0c879f6db1fff5bdedd425
+
+COCOAPODS: 1.9.0.beta.3
