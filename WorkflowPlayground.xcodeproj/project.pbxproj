@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		797F771CC2929913ABAD7A0A /* libPods-WorkflowPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAA0B6CD94A397B0326088A /* libPods-WorkflowPlayground.a */; };
+		0C9606E1883BF8E9AC5DAED5 /* Pods_WorkflowPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEB7B81ECE70EA1787A29AE /* Pods_WorkflowPlayground.framework */; };
 		B876B400240B30BD001665EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876B3FF240B30BD001665EA /* AppDelegate.swift */; };
-		B876B402240B30BD001665EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876B401240B30BD001665EA /* SceneDelegate.swift */; };
 		B876B404240B30BD001665EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876B403240B30BD001665EA /* ContentView.swift */; };
 		B876B406240B30BE001665EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B876B405240B30BE001665EA /* Assets.xcassets */; };
 		B876B409240B30BE001665EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B876B408240B30BE001665EA /* Preview Assets.xcassets */; };
@@ -19,11 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EEB7B81ECE70EA1787A29AE /* Pods_WorkflowPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkflowPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AD4ABDCA32918427F09A19 /* Pods-WorkflowPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowPlayground.release.xcconfig"; path = "Target Support Files/Pods-WorkflowPlayground/Pods-WorkflowPlayground.release.xcconfig"; sourceTree = "<group>"; };
-		ADAA0B6CD94A397B0326088A /* libPods-WorkflowPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkflowPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B876B3FC240B30BD001665EA /* WorkflowPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkflowPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B876B3FF240B30BD001665EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B876B401240B30BD001665EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B876B403240B30BD001665EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B876B405240B30BE001665EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B876B408240B30BE001665EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797F771CC2929913ABAD7A0A /* libPods-WorkflowPlayground.a in Frameworks */,
+				0C9606E1883BF8E9AC5DAED5 /* Pods_WorkflowPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +47,7 @@
 		A9B6E51966B109861749C7A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADAA0B6CD94A397B0326088A /* libPods-WorkflowPlayground.a */,
+				2EEB7B81ECE70EA1787A29AE /* Pods_WorkflowPlayground.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				B876B3FF240B30BD001665EA /* AppDelegate.swift */,
-				B876B401240B30BD001665EA /* SceneDelegate.swift */,
 				B876B403240B30BD001665EA /* ContentView.swift */,
 				B876B481240B3D75001665EA /* WrappingWorkflow.swift */,
 				B876B483240B3D92001665EA /* ScreenView.swift */,
@@ -222,7 +219,6 @@
 			files = (
 				B876B482240B3D75001665EA /* WrappingWorkflow.swift in Sources */,
 				B876B400240B30BD001665EA /* AppDelegate.swift in Sources */,
-				B876B402240B30BD001665EA /* SceneDelegate.swift in Sources */,
 				B876B404240B30BD001665EA /* ContentView.swift in Sources */,
 				B876B484240B3D92001665EA /* ScreenView.swift in Sources */,
 			);

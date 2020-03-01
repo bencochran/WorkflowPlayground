@@ -9,6 +9,7 @@
 import One
 import SwiftUI
 import Two
+import HighScores
 import Workflow
 import WorkflowSwiftUI
 import WorkflowUI
@@ -16,6 +17,7 @@ import WorkflowUI
 enum Content: String, Hashable, CaseIterable, Identifiable {
     case one = "One"
     case two = "Two"
+    case highScores = "High Scores"
 
     var id: Content { self }
 
@@ -25,6 +27,7 @@ enum Content: String, Hashable, CaseIterable, Identifiable {
         switch self {
         case .one: return WrappingWorkflow(OneRootWorkflow())
         case .two: return WrappingWorkflow(TwoRootWorkflow())
+        case .highScores: return WrappingWorkflow(highScoresWorkflow())
         }
     }
 }
@@ -34,13 +37,16 @@ struct ContentView: View {
     @State var detail: Content?
 
     var body: some View {
-        List(Content.allCases) { content in
-            Button(action: { self.detail = content }) {
-                Text(content.name)
+        NavigationView {
+            List(Content.allCases) { content in
+                Button(action: { self.detail = content }) {
+                    Text(content.name)
+                }
             }
-        }
-        .sheet(item: $detail) { content in
-            content.view
+            .navigationBarTitle("Playgrounds")
+            .sheet(item: $detail) { content in
+                content.view
+            }
         }
     }
 }

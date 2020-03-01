@@ -14,3 +14,7 @@ Pods/
 
 # Xcode
 xcuserdata/
+
+# js
+node_modules/
+yarn-error.log
